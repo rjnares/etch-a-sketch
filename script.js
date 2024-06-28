@@ -1,7 +1,15 @@
 const grid = document.querySelector("#grid");
+const hexCharacters = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"];
 
 function changeSquareColor(event) {
-    event.target.classList.add("color");
+    let newColor = "#";
+
+    for (let i = 0; i < 6; i++) {
+        const randomIndex = Math.floor((Math.random() * hexCharacters.length));
+        newColor += hexCharacters[randomIndex];
+    }
+
+    event.target.style.backgroundColor = newColor;
 }
 
 function createGrid(size) {

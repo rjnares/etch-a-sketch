@@ -26,10 +26,6 @@ body {
     border: 1px dotted black;
 }
 
-.color {
-    background-color: #808080;
-}
-
 #grid-resize-btn {
     padding: 10px 20px;
     font-size: 20px;
