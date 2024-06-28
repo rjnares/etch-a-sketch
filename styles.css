@@ -9,5 +9,17 @@ body {
 #grid {
     height: 800px;
     width: 800px;
-    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted black;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.row > div {
+    flex: 1;
+    border: 1px dotted black;
 }
