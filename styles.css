@@ -23,3 +23,7 @@ body {
     flex: 1;
     border: 1px dotted black;
 }
+
+.color {
+    background-color: #808080;
+}
