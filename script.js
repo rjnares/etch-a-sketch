@@ -19,4 +19,24 @@ function createGrid(size) {
     }
 }
 
+function resizeGrid() {
+    let newSize = parseInt(prompt("Please enter a new size for the grid between 1 and 100"));
+
+    if (isNaN(newSize) || newSize < 1 || newSize > 100) {
+        return;
+    }
+
+    clearGrid();
+    createGrid(newSize);
+}
+
+function clearGrid() {
+    let row = grid.lastElementChild;
+
+    while (row) {
+        grid.removeChild(row);
+        row = grid.lastElementChild;
+    }
+}
+
 createGrid(16);
