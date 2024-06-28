@@ -45,6 +45,7 @@ function resizeGrid() {
 }
 
 function clearGrid() {
+    currentOpacity = 0;
     let row = grid.lastElementChild;
 
     while (row) {
