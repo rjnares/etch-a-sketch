@@ -12,3 +12,6 @@ The project consists of a simple N x N grid where N is any value between 1 and 1
 
 The goal of this simple project was to apply DOM manipulation and event skills learned in the [JavaScript Basics](https://www.theodinproject.com/paths/foundations/courses/foundations#javascript-basics) section of the [Foundations](https://www.theodinproject.com/paths/foundations/courses/foundations) course. A secondary goal was to create a simple grid using css flexbox instead of css grid display using the skills learned from the [Flexbox](https://www.theodinproject.com/paths/foundations/courses/foundations#flexbox) section of the [Foundations](https://www.theodinproject.com/paths/foundations/courses/foundations) course.
 
+## Live View
+
+Click [here](https://rjnares.github.io/etch-a-sketch/) for a live view of this project.
